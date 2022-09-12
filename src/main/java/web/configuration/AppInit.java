@@ -8,7 +8,7 @@ import javax.servlet.ServletException;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[] {PersistenceConfiguraion.class};
+        return null;
     }
 
     protected Class<?>[] getServletConfigClasses() {
